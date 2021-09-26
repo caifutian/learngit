@@ -1,3 +1,5 @@
+把本地仓库的所有内容推送到远程库上:git push -u origin master
+推送当前commit内容推送到远程库上： git push origin master 
 查看分支：git branch
 
 创建分支：git branch <name>
