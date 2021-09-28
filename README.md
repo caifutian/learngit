@@ -32,3 +32,6 @@ $ git switch dev
 $ git cherry-pick xxxx 合并issue-101到dev
 $ git stash pop   恢复之前手头工作没有完成时的修改
 
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
+
+
