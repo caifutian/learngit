@@ -34,4 +34,8 @@ $ git stash pop   恢复之前手头工作没有完成时的修改
 
 如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
 
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
 
+命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+命令git tag可以查看所有标签。
