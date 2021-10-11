@@ -53,3 +53,8 @@ $ git stash pop   恢复之前手头工作没有完成时的修改
 自己拥有Fork后的仓库的读写权限；
 
 可以推送pull request给官方仓库来贡献代码。
+
+忽略某些文件时，需要编写.gitignore；
+
+.gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理！
+
